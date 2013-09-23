@@ -9,8 +9,8 @@
 
 Summary: Provides a wrapper to the ImageMagick library
 Name: %{php_base}-pecl-%peclName
-Version: 3.0.1
-Release: 3.ius%{?dist}
+Version: 3.1.1
+Release: 1.ius%{?dist}
 License: PHP
 Group: Development/Libraries
 Source0: http://pecl.php.net/get/%peclName-%{version}.tgz
@@ -87,6 +87,9 @@ fi
 %{_includedir}/php/ext/imagick/php_imagick_shared.h
 
 %changelog
+* Mon Sep 23 2013 Ben Harper <ben.harper@rackspace.com> - 3.1.1-1.ius
+- Latest sources from upstream
+
 * Fri Aug 19 2011 Jeffrey Ness <jeffrey.ness@rackspace.com> - 3.0.1-3.ius
 - Rebuilding
 
